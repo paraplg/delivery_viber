@@ -131,7 +131,7 @@ def incoming():
 
 
 def set_webhook(viber):
-    viber.set_webhook('https://llkfncvzsx.localtunnel.me')
+    viber.set_webhook('https://pythonsamplebot.onrender.com')
 
 
 def add_to_cart(cart, product, count):
