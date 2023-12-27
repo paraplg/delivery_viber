@@ -8,7 +8,7 @@ class Cart:
     def __init__(self, user_id):
         self.user_id = user_id
         self.items = []
-        self.db = redis.StrictRedis(host='redis://red-cm59o70cmk4c73co56f0', port=6379)
+        self.db = redis.StrictRedis(host='rediss://red-cm59o70cmk4c73co56f0:AHbpmN09KgirGrmnd2YNRsSo0nC8Lstr@oregon-redis.render.com', port=6379)
         self.deserialize()
 
     def __str__(self):
